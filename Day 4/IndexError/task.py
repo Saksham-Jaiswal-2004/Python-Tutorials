@@ -6,4 +6,12 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
                      "North Dakota", "South Dakota", "Montana", "Washington", "Idaho", "Wyoming", "Utah", "Oklahoma",
                      "New Mexico", "Arizona", "Alaska", "Hawaii"]
 
-print(states_of_america)
+states_of_india = ["West Bengal", "Haryana", "Madhya Pradesh", "Assam", "Rajasthan", "Mumbai", "Delhi", "Goa", "Hyderabad", "Odisha"]
+
+states = [states_of_america, states_of_india] #A nested list which contains two lists
+
+num1 = len(states_of_america) #len() function gives the length of the given data type passed in its parameter
+num2 = len(states_of_india) #len() function gives the length of the given data type passed in its parameter
+
+print(num1, num2)
+print(states)
