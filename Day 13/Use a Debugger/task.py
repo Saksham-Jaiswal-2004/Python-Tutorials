@@ -1,7 +1,6 @@
 import random
 import maths
 
-
 def mutate(a_list):
     b_list = []
     new_item = 0
